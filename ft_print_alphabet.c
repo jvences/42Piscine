@@ -1,16 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_print_alphabet copy.c                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: catperei <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: catperei <catperei@student.42lisboa>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/01/11 13:39:51 by catperei          #+#    #+#             */
-/*   Updated: 2021/01/11 13:42:08 by catperei         ###   ########.fr       */
+/*   Created: 2021/01/11 13:44:26 by catperei          #+#    #+#             */
+/*   Updated: 2021/01/11 13:46:13 by catperei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_putchar(char c)
+void	ft_print_alphabet(void)
 {
+	char c;
+	while (c = 'a'; c <= 'z'; c++)
 	write(1, &c, 1);
 }
